@@ -20,3 +20,14 @@ D:\Angular + WEB.API\drinks-service-vs-old\drinks-service-vs\obj\Debug\netcoreap
 D:\Angular + WEB.API\drinks-service-vs-old\drinks-service-vs\obj\Debug\netcoreapp2.0\drinks-service-vs.AssemblyInfo.cs
 D:\Angular + WEB.API\drinks-service-vs-old\drinks-service-vs\obj\Debug\netcoreapp2.0\drinks-service-vs.dll
 D:\Angular + WEB.API\drinks-service-vs-old\drinks-service-vs\obj\Debug\netcoreapp2.0\drinks-service-vs.pdb
+D:\Angular + WEB.API\drinks-service-vs-solution\drinks-service-vs\bin\Debug\netcoreapp2.0\drinks-service-vs.deps.json
+D:\Angular + WEB.API\drinks-service-vs-solution\drinks-service-vs\bin\Debug\netcoreapp2.0\drinks-service-vs.runtimeconfig.json
+D:\Angular + WEB.API\drinks-service-vs-solution\drinks-service-vs\bin\Debug\netcoreapp2.0\drinks-service-vs.runtimeconfig.dev.json
+D:\Angular + WEB.API\drinks-service-vs-solution\drinks-service-vs\bin\Debug\netcoreapp2.0\drinks-service-vs.dll
+D:\Angular + WEB.API\drinks-service-vs-solution\drinks-service-vs\bin\Debug\netcoreapp2.0\drinks-service-vs.pdb
+D:\Angular + WEB.API\drinks-service-vs-solution\drinks-service-vs\obj\Debug\netcoreapp2.0\drinks-service-vs.csprojAssemblyReference.cache
+D:\Angular + WEB.API\drinks-service-vs-solution\drinks-service-vs\obj\Debug\netcoreapp2.0\drinks-service-vs.csproj.CoreCompileInputs.cache
+D:\Angular + WEB.API\drinks-service-vs-solution\drinks-service-vs\obj\Debug\netcoreapp2.0\drinks-service-vs.AssemblyInfoInputs.cache
+D:\Angular + WEB.API\drinks-service-vs-solution\drinks-service-vs\obj\Debug\netcoreapp2.0\drinks-service-vs.AssemblyInfo.cs
+D:\Angular + WEB.API\drinks-service-vs-solution\drinks-service-vs\obj\Debug\netcoreapp2.0\drinks-service-vs.dll
+D:\Angular + WEB.API\drinks-service-vs-solution\drinks-service-vs\obj\Debug\netcoreapp2.0\drinks-service-vs.pdb

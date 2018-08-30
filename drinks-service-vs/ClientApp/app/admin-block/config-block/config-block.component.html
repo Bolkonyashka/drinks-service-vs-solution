@@ -35,9 +35,11 @@
 <ng-template #edit>
     <div class="row conf-row">
         <div class="conf-info col-sm-3">
-            Баланс автомата: 
+            Баланс автомата:
         </div>
-        <input type="number" class="form-control col-sm-3" placeholder="Новое значение" aria-label="Новое значение" [(ngModel)]="vendingModel.cash">
+        <div class="conf-info col-sm-3">
+            <input type="number" class="form-control" placeholder="Новое значение" aria-label="Новое значение" [(ngModel)]="vendingModel.cash">
+        </div>
         <button class="btn btn-primary" (click)="saveNewCash()">Сохранить</button>
     </div>
 </ng-template>

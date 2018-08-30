@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.SpaServices.Webpack;
 using DrinksServiceApi.Models;
 using Microsoft.EntityFrameworkCore;
 using System.IO;
+using Microsoft.Extensions.Configuration;
 
 namespace drinks_service_vs
 {
@@ -19,7 +20,15 @@ namespace drinks_service_vs
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            string con = "Server=.\\SQLEXPRESS;Database=DrinksApp;Trusted_Connection=True;MultipleActiveResultSets=true";
+            var builder = new ConfigurationBuilder();
+            builder.SetBasePath(Directory.GetCurrentDirectory());
+            builder.AddJsonFile("appsettings.json");
+            var config = builder.Build();
+            string con = config.GetConnectionString("DefaultConnection");//"Server=.\\SQLEXPRESS;AttachDbFilename=D:\\Angular + WEB.API\\drinks-service-vs-solution\\drinks-service-vs\\App_Data\\DrinksApp.mdf;Trusted_Connection=True;MultipleActiveResultSets=true";
+            if (con.Contains("%CONTENTROOTPATH%"))
+            {
+                con = con.Replace("%CONTENTROOTPATH%", Directory.GetCurrentDirectory());
+            }
             services.AddDbContext<VendingContext>(options => options.UseSqlServer(con));
 
             services.AddMvc();
